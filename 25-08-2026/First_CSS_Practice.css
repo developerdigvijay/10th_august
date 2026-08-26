@@ -1,0 +1,32 @@
+h1{
+    color: lightblue;
+}
+p{
+    color: gray;
+    text-align: center;
+    /* text-decoration: overline; */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /* text-overflow: ellipsis; */
+    text-shadow: 2px 5px 5px blue;
+    text-indent: 10x;
+    /* text-rendering: optimizeSpeed; */
+    text-decoration-line: line-through;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color: green;
+    color:white;
+}
+
+.mytext{
+    color: rosybrown;
+    background-color: indigo;
+    padding: 20px;
+}
+#myidtext{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #c72626;
+}
