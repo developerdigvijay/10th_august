@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.container{
+    /* display: flex;
+       justify-content: center;
+       align-items: center;
+ */
+}
+
+.car_1{
+    width: 110px;
+    height: 100px;
+    background-color: darkblue;
+    /* understandig the position  */
+    /* position: absolute; */
+    
+}
+.car_2{
+    width: 120px;
+    height: 100px;
+    background-color: darkcyan;
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 20%; */
+    /* bottom: 20%; */
+}
+.car_3{
+    /* position: absolute; */
+    width: 130px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}   
+
+
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    position: absolute;
+    left: 50%;
+
+}
+
+
+.flex_box{
+    width: 400px;
+    height: 400px;
+    background-color: darkgoldenrod;
+    display: flex;
+    /* for horizontal alignment */
+    justify-content: space-between;
+    /* for height */
+    align-items:center;
+}
+.flex_child_1{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: darkgray;
+
+}
+.flex_child_2{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: darkgray;
+}
+.flex_child_3{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: darkgray;
+}
